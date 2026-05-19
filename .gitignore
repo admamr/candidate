@@ -1,0 +1,7 @@
+flammin-claude-kit/
+docs/
+.DS_Store
+node_modules/
+.env
+.env.local
+*.log
