@@ -520,7 +520,7 @@ p {
 }
 
 .temp-media::after {
-  content: "תמונה זמנית";
+  content: "";
   position: absolute;
   top: 10px;
   left: 10px;
@@ -1873,7 +1873,7 @@ p {
 }
 
 .related-articles::before {
-  content: "קריאה משלימה";
+  content: "";
   display: inline-block;
   margin-bottom: 8px;
   color: var(--muted);

@@ -3,7 +3,7 @@ const articleCards = document.querySelectorAll('.blog-card');
 const articleCount = document.querySelector('[data-article-count]');
 
 function updateCount(count) {
-  if (articleCount) articleCount.textContent = `מציגים ${count} מאמרים`;
+  if (articleCount) articleCount.textContent = `[טקסט תיאור] ${count}`;
 }
 
 function activateFilter(category) {
@@ -15,7 +15,7 @@ function activateFilter(category) {
   });
 
   articleCards.forEach((card) => {
-    const show = category === 'הכל' || card.dataset.category === category;
+    const show = category === 'all' || card.dataset.category === category;
     card.style.display = show ? '' : 'none';
     if (show) visible += 1;
   });
@@ -29,7 +29,7 @@ function activateFilter(category) {
       emptyState = document.createElement('p');
       emptyState.id = emptyStateId;
       emptyState.className = 'meta';
-      emptyState.textContent = 'לא נמצאו מאמרים בקטגוריה הזו כרגע.';
+      emptyState.textContent = '[טקסט תיאור]';
       const cardsContainer = document.querySelector('#blog-grid');
       if (cardsContainer) cardsContainer.appendChild(emptyState);
     }

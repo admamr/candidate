@@ -6,10 +6,10 @@
     <title>[כותרת עמוד] | [שם המועמד]</title>
     <meta
       name="description"
-      content="[תיאור מטא לעמוד]"
+      content="[תיאור מטא]"
     />
     <link rel="canonical" href="https://candidate.co.il/blog/" />
-    <meta property="og:title" content="[כותרת עמוד] | [שם המועמד]" />
+    <meta property="og:title" content="[כותרת OG]" />
     <meta
       property="og:description"
       content="[תיאור OG]"
@@ -25,12 +25,12 @@
         "@graph": [
           {
             "@type": "Blog",
-            "name": "בלוג [שם המועמד]",
+            "name":"[כותרת עמוד]",
             "url": "https://candidate.co.il/blog/"
           },
           {
             "@type": "CollectionPage",
-            "name": "[כותרת ראשית H1]",
+            "name":"[שם המועמד]",
             "url": "https://candidate.co.il/blog/"
           },
           {
@@ -39,13 +39,13 @@
               {
                 "@type": "ListItem",
                 "position": 1,
-                "name": "דף הבית",
+                "name":"[שם המועמד]",
                 "item": "https://candidate.co.il/"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
-                "name": "בלוג",
+                "name":"[שם המועמד]",
                 "item": "https://candidate.co.il/blog/"
               }
             ]
@@ -55,34 +55,34 @@
             "mainEntity": [
               {
                 "@type": "Question",
-                "name": "מה אפשר למצוא בבלוג?",
+                "name":"[שם המועמד]",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "הבלוג מרכז מאמרי עומק, עמדות ציבוריות ועדכונים שוטפים בנושאי [קטגוריית מאמר], כלכלה, חינוך ו[קטגוריית מאמר]."
+                  "text":"[תשובת FAQ]"
                 }
               },
               {
                 "@type": "Question",
-                "name": "איך המאמרים מחוברים ל[קטגוריה]?",
+                "name":"[שם המועמד]",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "כל מאמר מתרגם את עקרונות ה[קטגוריה] הציבורי לתוכנית מעשית עם צעדים ברורים, אחריות ביצוע ומדדי הצלחה."
+                  "text":"[תשובת FAQ]"
                 }
               },
               {
                 "@type": "Question",
-                "name": "איפה קוראים על [קטגוריית מאמר] וכלכלה?",
+                "name":"[שם המועמד]",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "באמצעות פילטר הקטגוריות בחלק העליון של העמוד, או דרך נושאי ההעמקה שמקצרים את הדרך למאמרים הרלוונטיים."
+                  "text":"[תשובת FAQ]"
                 }
               },
               {
                 "@type": "Question",
-                "name": "איך מקבלים עדכונים על מאמרים חדשים?",
+                "name":"[שם המועמד]",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "נרשמים בטופס העדכונים בתחתית העמוד ומקבלים ישירות למייל פרסומים חדשים, ניתוחים ועדכוני תוכן מרכזיים."
+                  "text":"[תשובת FAQ]"
                 }
               }
             ]
@@ -104,7 +104,7 @@
         </button>
         <nav class="nav" id="site-nav" aria-label="ניווט ראשי">
           <a href="index.html">דף הבית</a>
-          <a href="mission-vision.html">המשימה וה[קטגוריה]</a>
+          <a href="mission-vision.html">המשימה והחזון</a>
           <a class="active" href="blog.html">בלוג</a>
           <a href="contact.html">צרו קשר</a>
         </nav>
@@ -116,23 +116,20 @@
       <section class="hero blog-hero">
         <div class="container blog-hero-wrap">
           <div class="blog-hero-copy">
-            <p class="eyebrow">[תגית עמוד]</p>
+            <p class="eyebrow">[תגית]</p>
             <h1>[כותרת ראשית H1]</h1>
-            <p>
-              כאן תמצאו מאמרים, עדכונים ותשובות בנושאים המרכזיים שעל סדר היום, כדי להבין לעומק את הדרך,
-              התוכנית וה[קטגוריה] של [שם המועמד].
-            </p>
+            <p>[פסקה קצרה]</p>
             <div class="hero-actions">
               <a class="btn btn-primary" href="#featured">[כפתור ראשי]</a>
               <a class="btn btn-secondary" href="mission-vision.html">[כפתור משני]</a>
             </div>
           </div>
           <aside class="blog-hero-insight" aria-label="ניווט מהיר לתוכן מוביל">
-            <p class="meta">מסלול קריאה מומלץ</p>
+            <p class="meta">[טקסט תיאור]</p>
             <ol>
-              <li><a href="#featured">המאמר הנבחר של השבוע</a></li>
-              <li><a href="#blog-grid">מאמרי עומק לפי נושא</a></li>
-              <li><a href="#faq">[כותרת סקשן H2] לפני קריאה</a></li>
+              <li><a href="#featured">[טקסט תיאור]</a></li>
+              <li><a href="#blog-grid">[טקסט תיאור]</a></li>
+              <li><a href="#faq">[כותרת סקשן H2] [טקסט תיאור]</a></li>
             </ol>
           </aside>
         </div>
@@ -142,16 +139,13 @@
         <div class="container">
           <article class="featured-article">
             <div class="featured-article-copy">
-              <p class="meta"><span class="category-badge">[קטגוריית מאמר]</span> · [תאריך פרסום] · 6 [זמן קריאה]</p>
-              <h2>[כותרת מאמר]</h2>
-              <p>
-                [תקציר מאמר]
-                במערכות המדינה.
-              </p>
-              <a class="btn btn-primary" href="articles/article-001.html">קראו את המאמר</a>
+              <p class="meta">[טקסט תיאור]</p>
+              <h2>[כותרת סקשן H2]</h2>
+              <p>[פסקה קצרה]</p>
+              <a class="btn btn-primary" href="articles/article-001.html">[כפתור קריאה]</a>
             </div>
             <figure class="media-frame media-lg temp-media">
-              <img src="assets/images/placeholder-editorial.svg" alt="תמונת שער למאמר נבחר" loading="lazy" width="1200" height="800" />
+              <img src="assets/images/placeholder-editorial.svg" alt="[תמונה / ויזואל]" loading="lazy" width="1200" height="800" />
             </figure>
           </article>
         </div>
@@ -161,13 +155,13 @@
         <div class="container">
           <div class="filters" aria-label="סינון קטגוריות">
             <button class="filter-btn active" data-category="הכל" aria-pressed="true">הכל</button>
-            <button class="filter-btn" data-category="[קטגוריית מאמר]" aria-pressed="false">[קטגוריית מאמר]</button>
-            <button class="filter-btn" data-category="[קטגוריית מאמר]" aria-pressed="false">[קטגוריית מאמר]</button>
-            <button class="filter-btn" data-category="כלכלה" aria-pressed="false">כלכלה</button>
-            <button class="filter-btn" data-category="חינוך" aria-pressed="false">חינוך</button>
-            <button class="filter-btn" data-category="[קטגוריית מאמר]" aria-pressed="false">[קטגוריית מאמר]</button>
+            <button class="filter-btn" data-category="[קטגוריה]" aria-pressed="false">[קטגוריה]</button>
+            <button class="filter-btn" data-category="[קטגוריה]" aria-pressed="false">[קטגוריה]</button>
+            <button class="filter-btn" data-category="[טקסט תיאור]" aria-pressed="false">[טקסט תיאור]</button>
+            <button class="filter-btn" data-category="[טקסט תיאור]" aria-pressed="false">[טקסט תיאור]</button>
+            <button class="filter-btn" data-category="[קטגוריה]" aria-pressed="false">[קטגוריה]</button>
             <button class="filter-btn" data-category="מהשטח" aria-pressed="false">מהשטח</button>
-            <button class="filter-btn" data-category="שאלות ותשובות" aria-pressed="false">שאלות ותשובות</button>
+            <button class="filter-btn" data-category="[קטגוריה]" aria-pressed="false">[קטגוריה]</button>
           </div>
           <p class="meta" data-article-count></p>
         </div>
@@ -175,49 +169,49 @@
 
       <section class="section">
         <div class="container article-grid" id="blog-grid">
-          <article class="article-card article-card-lg blog-card" data-category="[קטגוריית מאמר]">
+          <article class="article-card article-card-lg blog-card" data-category="[קטגוריה]">
             <figure class="media-frame media-lg temp-media">
-              <img src="assets/images/placeholder-editorial.svg" alt="תמונת מאמר [קטגוריית מאמר]" loading="lazy" width="1200" height="800" />
+              <img src="assets/images/placeholder-editorial.svg" alt="[תמונה / ויזואל]" loading="lazy" width="1200" height="800" />
             </figure>
-            <p class="meta"><span class="category-badge">[קטגוריית מאמר]</span> · [תאריך פרסום] · 6 [זמן קריאה]</p>
-            <h3>[כותרת מאמר]</h3>
+            <p class="meta">[טקסט תיאור]</p>
+            <h3>[כותרת משנה H3]</h3>
             <p>[תקציר מאמר]</p>
-            <a class="btn btn-secondary btn-compact" href="articles/article-001.html">קראו עוד</a>
+            <a class="btn btn-secondary btn-compact" href="articles/article-001.html">[כפתור קריאה]</a>
           </article>
 
-          <article class="article-card article-card-md blog-card" data-category="[קטגוריית מאמר]">
-            <p class="meta"><span class="category-badge">[קטגוריית מאמר]</span> · [תאריך פרסום] · 6 [זמן קריאה]</p>
-            <h3>[כותרת מאמר]</h3>
-            <p>שקיפות, מדידה ואחריות ניהולית יכולים לשנות את הקשר בין המדינה לאזרח.</p>
-            <a class="btn btn-secondary btn-compact" href="articles/article-002.html">קראו עוד</a>
+          <article class="article-card article-card-md blog-card" data-category="[קטגוריה]">
+            <p class="meta">[טקסט תיאור]</p>
+            <h3>[כותרת משנה H3]</h3>
+            <p>[פסקה קצרה]</p>
+            <a class="btn btn-secondary btn-compact" href="articles/article-002.html">[כפתור קריאה]</a>
           </article>
 
-          <article class="article-card article-card-md blog-card" data-category="[קטגוריית מאמר]">
-            <p class="meta"><span class="category-badge">[קטגוריית מאמר]</span> · [תאריך פרסום] · 5 [זמן קריאה]</p>
-            <h3>[כותרת מאמר]</h3>
+          <article class="article-card article-card-md blog-card" data-category="[קטגוריה]">
+            <p class="meta">[טקסט תיאור]</p>
+            <h3>[כותרת משנה H3]</h3>
             <p>[תקציר מאמר]</p>
-            <a class="btn btn-secondary btn-compact" href="articles/article-003.html">קראו עוד</a>
+            <a class="btn btn-secondary btn-compact" href="articles/article-003.html">[כפתור קריאה]</a>
           </article>
 
-          <article class="article-card blog-card" data-category="כלכלה">
-            <p class="meta"><span class="category-badge">כלכלה</span> · 02.05.2026 · 4 [זמן קריאה]</p>
-            <h3>[כותרת מאמר]</h3>
-            <p>למה ודאות רגולטורית חשובה לאזרחים ולעסקים.</p>
-            <a class="btn btn-secondary btn-compact" href="articles/article-001.html">קראו עוד</a>
+          <article class="article-card blog-card" data-category="[טקסט תיאור]">
+            <p class="meta">[טקסט תיאור]</p>
+            <h3>[כותרת משנה H3]</h3>
+            <p>[פסקה קצרה]</p>
+            <a class="btn btn-secondary btn-compact" href="articles/article-001.html">[כפתור קריאה]</a>
           </article>
 
-          <article class="article-card blog-card" data-category="חינוך">
-            <p class="meta"><span class="category-badge">חינוך</span> · 30.04.2026 · 5 [זמן קריאה]</p>
-            <h3>מערכת חינוך שמכינה למציאות של עשור קדימה</h3>
-            <p>תוכנית ממוקדת לאיכות הוראה, שוויון הזדמנויות וכישורים לעולם משתנה.</p>
-            <a class="btn btn-secondary btn-compact" href="articles/article-002.html">קראו עוד</a>
+          <article class="article-card blog-card" data-category="[טקסט תיאור]">
+            <p class="meta">[טקסט תיאור]</p>
+            <h3>[כותרת משנה H3]</h3>
+            <p>[פסקה קצרה]</p>
+            <a class="btn btn-secondary btn-compact" href="articles/article-002.html">[כפתור קריאה]</a>
           </article>
 
           <article class="article-card blog-card" data-category="מהשטח">
-            <p class="meta"><span class="category-badge">מהשטח</span> · 28.04.2026 · 3 [זמן קריאה]</p>
-            <h3>מפגש עם ראשי קהילות: מה הציבור דורש עכשיו</h3>
+            <p class="meta">[טקסט תיאור]</p>
+            <h3>[כותרת משנה H3]</h3>
             <p>[תקציר מאמר]</p>
-            <a class="btn btn-secondary btn-compact" href="articles/article-003.html">קראו עוד</a>
+            <a class="btn btn-secondary btn-compact" href="articles/article-003.html">[כפתור קריאה]</a>
           </article>
         </div>
       </section>
@@ -228,8 +222,8 @@
            <ol class="ranked-list ranked-list-compact">
              <li><a href="articles/article-002.html"><strong>01</strong><span>[כותרת מאמר]</span><span class="ranked-cta" aria-hidden="true">←</span></a></li>
              <li><a href="articles/article-001.html"><strong>02</strong><span>[כותרת מאמר]</span><span class="ranked-cta" aria-hidden="true">←</span></a></li>
-             <li><a href="articles/article-003.html"><strong>03</strong><span>[כותרת מאמר פופולרי]</span><span class="ranked-cta" aria-hidden="true">←</span></a></li>
-             <li><a href="mission-vision.html"><strong>04</strong><span>עקרונות ה[קטגוריה] הציבורי שמובילים את סדר היום</span><span class="ranked-cta" aria-hidden="true">←</span></a></li>
+             <li><a href="articles/article-003.html"><strong>03</strong><span>[כותרת מאמר]</span><span class="ranked-cta" aria-hidden="true">←</span></a></li>
+             <li><a href="mission-vision.html"><strong>04</strong><span>עקרונות ה[קטגוריה] ה[טקסט תיאור]י שמובילים את סדר היום</span><span class="ranked-cta" aria-hidden="true">←</span></a></li>
            </ol>
         </div>
       </section>
@@ -240,12 +234,12 @@
             <h2>[כותרת סקשן H2]</h2>
           </div>
           <div class="topic-strip">
-            <a class="topic-chip" href="blog.html#category-%D7%91%D7%99%D7%98%D7%97%D7%95%D7%9F"><span>[קטגוריית מאמר] לאומי</span></a>
-            <a class="topic-chip" href="blog.html#category-%D7%9B%D7%9C%D7%9B%D7%9C%D7%94"><span>כלכלה וצמיחה</span></a>
-            <a class="topic-chip" href="blog.html#category-%D7%97%D7%99%D7%A0%D7%95%D7%9A"><span>חינוך ודור העתיד</span></a>
-            <a class="topic-chip" href="blog.html#category-%D7%A9%D7%99%D7%A8%D7%95%D7%AA%20%D7%A6%D7%99%D7%91%D7%95%D7%A8%D7%99"><span>[קטגוריית מאמר] נקי</span></a>
-            <a class="topic-chip" href="blog.html#category-%D7%97%D7%96%D7%95%D7%9F%20%D7%95%D7%9E%D7%93%D7%99%D7%A0%D7%99%D7%95%D7%AA"><span>אחדות חברתית</span></a>
-            <a class="topic-chip" href="blog.html#category-%D7%97%D7%96%D7%95%D7%9F%20%D7%95%D7%9E%D7%93%D7%99%D7%A0%D7%99%D7%95%D7%AA"><span>מדיניות וחקיקה</span></a>
+            <a class="topic-chip" href="blog.html#category-%D7%91%D7%99%D7%98%D7%97%D7%95%D7%9F"><span>[קטגוריה] לאומי</span></a>
+            <a class="topic-chip" href="blog.html#category-%D7%9B%D7%9C%D7%9B%D7%9C%D7%94"><span>[טקסט תיאור] וצמיחה</span></a>
+            <a class="topic-chip" href="blog.html#category-%D7%97%D7%99%D7%A0%D7%95%D7%9A"><span>[טקסט תיאור] ודור העתיד</span></a>
+            <a class="topic-chip" href="blog.html#category-%D7%A9%D7%99%D7%A8%D7%95%D7%AA%20%D7%A6%D7%99%D7%91%D7%95%D7%A8%D7%99"><span>[קטגוריה] נקי</span></a>
+            <a class="topic-chip" href="blog.html#category-%D7%97%D7%96%D7%95%D7%9F%20%D7%95%D7%9E%D7%93%D7%99%D7%A0%D7%99%D7%95%D7%AA"><span>[טקסט תיאור] חברתית</span></a>
+            <a class="topic-chip" href="blog.html#category-%D7%97%D7%96%D7%95%D7%9F%20%D7%95%D7%9E%D7%93%D7%99%D7%A0%D7%99%D7%95%D7%AA"><span>[טקסט תיאור] וחקיקה</span></a>
           </div>
         </div>
       </section>
@@ -255,47 +249,27 @@
           <div class="section-head"><h2>[כותרת סקשן H2]</h2></div>
           <div class="faq-accordion" data-accordion="single">
             <div class="faq-item is-open">
-              <h3>
-                <button class="faq-trigger" id="faq-trigger-1" aria-expanded="true" aria-controls="faq-panel-1">
-                  <span>מה אפשר למצוא בבלוג?</span>
-                  <span class="faq-icon" aria-hidden="true"></span>
-                </button>
-              </h3>
+              <h3>[כותרת משנה H3]</h3>
               <div class="faq-answer" id="faq-panel-1" role="region" aria-labelledby="faq-trigger-1">
-                <p>הבלוג מרכז מאמרי עומק, עמדות ציבוריות ועדכונים שוטפים בנושאי [קטגוריית מאמר], כלכלה, חינוך ו[קטגוריית מאמר].</p>
+                <p>[פסקה קצרה]</p>
               </div>
             </div>
             <div class="faq-item">
-              <h3>
-                <button class="faq-trigger" id="faq-trigger-2" aria-expanded="false" aria-controls="faq-panel-2">
-                  <span>איך המאמרים מחוברים ל[קטגוריה]?</span>
-                  <span class="faq-icon" aria-hidden="true"></span>
-                </button>
-              </h3>
+              <h3>[כותרת משנה H3]</h3>
               <div class="faq-answer" id="faq-panel-2" role="region" aria-labelledby="faq-trigger-2">
-                <p>כל מאמר מתרגם את עקרונות ה[קטגוריה] הציבורי לתוכנית מעשית עם צעדים ברורים, אחריות ביצוע ומדדי הצלחה.</p>
+                <p>[פסקה קצרה]</p>
               </div>
             </div>
             <div class="faq-item">
-              <h3>
-                <button class="faq-trigger" id="faq-trigger-3" aria-expanded="false" aria-controls="faq-panel-3">
-                  <span>איפה קוראים על [קטגוריית מאמר] וכלכלה?</span>
-                  <span class="faq-icon" aria-hidden="true"></span>
-                </button>
-              </h3>
+              <h3>[כותרת משנה H3]</h3>
               <div class="faq-answer" id="faq-panel-3" role="region" aria-labelledby="faq-trigger-3">
-                <p>באמצעות פילטר הקטגוריות בחלק העליון של העמוד, או דרך נושאי ההעמקה שמקצרים את הדרך למאמרים הרלוונטיים.</p>
+                <p>[פסקה קצרה]</p>
               </div>
             </div>
             <div class="faq-item">
-              <h3>
-                <button class="faq-trigger" id="faq-trigger-4" aria-expanded="false" aria-controls="faq-panel-4">
-                  <span>איך מקבלים עדכונים על מאמרים חדשים?</span>
-                  <span class="faq-icon" aria-hidden="true"></span>
-                </button>
-              </h3>
+              <h3>[כותרת משנה H3]</h3>
               <div class="faq-answer" id="faq-panel-4" role="region" aria-labelledby="faq-trigger-4">
-                <p>נרשמים בטופס העדכונים בתחתית העמוד ומקבלים ישירות למייל פרסומים חדשים, ניתוחים ועדכוני תוכן מרכזיים.</p>
+                <p>[פסקה קצרה]</p>
               </div>
             </div>
           </div>
@@ -304,7 +278,7 @@
 
       <section class="section">
         <div class="container cta-band newsletter-band blog-newsletter">
-          <h2>[כותרת הרשמה לעדכונים]</h2>
+          <h2>[כותרת סקשן H2]</h2>
           <form>
             <div class="form-grid">
               <div>
@@ -316,8 +290,8 @@
                 <input id="blog-email" type="email" required />
               </div>
             </div>
-            <button class="btn btn-primary" type="submit">[כפתור הרשמה]</button>
-            <p class="microcopy">[טקסט פרטיות קצר]</p>
+            <button class="btn btn-primary" type="submit">[כפתור ראשי]</button>
+            <p class="microcopy">[טקסט פרטיות]</p>
           </form>
         </div>
       </section>
@@ -327,8 +301,8 @@
       <div class="container">
         <div class="footer-grid">
           <div class="footer-brand footer-column">
-            <h3 class="footer-title">[שם המועמד]</h3>
-            <p class="footer-description">[תיאור קצר על המועמד / הקמפיין]</p>
+            <h3 class="footer-title">[כותרת משנה H3]</h3>
+            <p class="footer-description">[תיאור קצר]</p>
             <div class="footer-socials" aria-label="רשתות חברתיות">
               <a class="footer-social-link" href="#" aria-label="פייסבוק"><svg class="footer-social-icon" aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M13.5 21v-7.1h2.4l.36-2.9H13.5V9.16c0-.84.23-1.41 1.44-1.41h1.54V5.16c-.75-.08-1.5-.12-2.25-.12-2.23 0-3.76 1.36-3.76 3.87V11H8v2.9h2.47V21z"></path></svg></a>
               <a class="footer-social-link" href="#" aria-label="אינסטגרם"><svg class="footer-social-icon" aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2m0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4zm10.75 1.5a1.25 1.25 0 1 1-1.25 1.25 1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 1 1-5 5 5 5 0 0 1 5-5m0 2a3 3 0 1 0 3 3 3 3 0 0 0-3-3"></path></svg></a>
@@ -338,39 +312,39 @@
             </div>
           </div>
           <div class="footer-column">
-            <h3 class="footer-title">ניווט</h3>
+            <h3 class="footer-title">[כותרת משנה H3]</h3>
             <div class="footer-links">
               <a href="index.html">דף הבית</a>
-              <a href="mission-vision.html">המשימה וה[קטגוריה]</a>
+              <a href="mission-vision.html">המשימה והחזון</a>
               <a href="blog.html">בלוג</a>
               <a href="contact.html">צרו קשר</a>
             </div>
           </div>
           <div class="footer-column">
-            <h3 class="footer-title">נושאים</h3>
+            <h3 class="footer-title">[כותרת משנה H3]</h3>
             <div class="footer-links">
-              <a href="blog.html#categories">[קטגוריית מאמר]</a>
-              <a href="blog.html#categories">[קטגוריית מאמר]</a>
-              <a href="blog.html#categories">כלכלה</a>
-              <a href="blog.html#categories">חינוך</a>
-              <a href="blog.html#categories">[קטגוריית מאמר]</a>
+              <a href="blog.html#categories">[קטגוריה]</a>
+              <a href="blog.html#categories">[קטגוריה]</a>
+              <a href="blog.html#categories">[טקסט תיאור]</a>
+              <a href="blog.html#categories">[טקסט תיאור]</a>
+              <a href="blog.html#categories">[קטגוריה]</a>
             </div>
           </div>
           <div class="footer-column footer-newsletter">
-            <h3 class="footer-title">קבלו עדכונים</h3>
-            <p>[טקסט תיאור מורחב]</p>
+            <h3 class="footer-title">[כותרת משנה H3]</h3>
+            <p>[פסקה מורחבת]</p>
             <form class="footer-newsletter-form" action="#">
               <label class="sr-only" for="footer-email-blog">אימייל</label>
-              <input id="footer-email-blog" type="email" placeholder="אימייל" required />
-              <button class="btn btn-primary" type="submit">הרשמה</button>
+              <input id="footer-email-blog" type="email" placeholder="[תוכן מאמר]" required />
+              <button class="btn btn-primary" type="submit">[כפתור ראשי]</button>
             </form>
-            <p class="microcopy">נשלח עדכונים בלבד. ללא ספאם.</p>
+            <p class="microcopy">[פסקה קצרה]</p>
           </div>
         </div>
         <div class="footer-bottom">
-          <p class="legal">פרסום מטעם [שם הגוף המפרסם], בהתאם להוראות הדין.</p>
+          <p class="legal">[פסקה קצרה]</p>
           <div class="footer-legal-links">
-            <a href="privacy-policy.html">מדיניות פרטיות</a>
+            <a href="privacy-policy.html">[טקסט תיאור] פרטיות</a>
             <a href="terms.html">תנאי שימוש</a>
             <a href="accessibility.html">הצהרת נגישות</a>
           </div>
