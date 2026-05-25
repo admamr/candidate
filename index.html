@@ -4,23 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>[כותרת עמוד] | [שם המועמד]</title>
-    <meta
-      name="description"
-      content="[תיאור מטא]"
-    />
+    <meta name="description" content="[תיאור מטא]" />
     <link rel="canonical" href="https://candidate.co.il/" />
     <meta property="og:title" content="[כותרת OG]" />
-    <meta
-      property="og:description"
-      content="[תיאור OG]"
-    />
-    <meta
-      property="og:image"
-      content="https://candidate.co.il/assets/images/og-home.jpg"
-    />
+    <meta property="og:description" content="[תיאור OG]" />
+    <meta property="og:image" content="https://candidate.co.il/assets/images/og-home.jpg" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://candidate.co.il/" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="[כותרת OG]" />
+    <meta name="twitter:description" content="[תיאור OG]" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -34,17 +27,13 @@
         "@graph": [
           {
             "@type": "WebSite",
-            "name":"[כותרת עמוד]",
-            "url": "https://candidate.co.il/"
-          },
-          {
-            "@type": "Person",
-            "name":"[שם המועמד]",
+            "name": "[שם המועמד]",
+            "description": "[תיאור מטא]",
             "url": "https://candidate.co.il/"
           },
           {
             "@type": "Organization",
-            "name":"[שם המועמד]",
+            "name": "[שם הגוף המפרסם]",
             "url": "https://candidate.co.il/"
           }
         ]
@@ -55,12 +44,7 @@
     <header class="site-header">
       <div class="container header-wrap">
         <a class="brand" href="index.html">[שם המועמד]</a>
-        <button
-          class="menu-toggle"
-          aria-label="פתח תפריט"
-          aria-expanded="false"
-          aria-controls="site-nav"
-        >
+        <button class="menu-toggle" aria-label="פתח תפריט" aria-expanded="false" aria-controls="site-nav">
           <span class="menu-toggle-icon" aria-hidden="true">
             <span class="menu-line"></span>
             <span class="menu-line"></span>
@@ -73,9 +57,7 @@
           <a href="blog.html">בלוג</a>
           <a href="contact.html">צרו קשר</a>
         </nav>
-        <a class="btn btn-primary desktop-only" href="blog.html"
-          >[טקסט כפתור]</a
-        >
+        <a class="btn btn-primary desktop-only" href="blog.html">[כפתור ראשי]</a>
       </div>
     </header>
 
@@ -87,76 +69,9 @@
             <h1>[כותרת ראשית H1]</h1>
             <p>[פסקה קצרה]</p>
             <div class="hero-actions">
-              <a class="btn btn-primary" href="blog.html">[טקסט כפתור]</a>
-              <a class="btn btn-secondary" href="mission-vision.html"
-                >[כפתור משני]</a
-              >
+              <a class="btn btn-primary" href="blog.html">[כפתור ראשי]</a>
+              <a class="btn btn-secondary" href="mission-vision.html">[כפתור משני]</a>
             </div>
-            <a class="latest-strip" href="articles/article-002.html"
-              >[תגית] [כותרת מאמר] [זמן קריאה]</a
-            >
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="featured">
-        <div class="container">
-          <div class="section-head">
-            <h2>[כותרת סקשן H2]</h2>
-            <p>[תיאור קצר]</p>
-          </div>
-          <article class="featured-editorial">
-            <div class="featured-editorial-copy">
-              <p class="meta">[טקסט תיאור]</p>
-              <h3>[כותרת משנה H3]</h3>
-              <p>[פסקה קצרה]</p>
-              <a class="btn btn-primary" href="articles/article-001.html"
-                >[כפתור קריאה]</a
-              >
-            </div>
-            <figure
-              class="media-frame media-lg temp-media featured-editorial-media"
-            >
-              <img
-                src="assets/images/placeholder-editorial.svg"
-                alt="[תמונה / ויזואל]"
-                loading="lazy"
-                width="1200"
-                height="800"
-              />
-            </figure>
-          </article>
-        </div>
-      </section>
-
-      <section class="section section-soft" aria-labelledby="read-path-heading">
-        <div class="container">
-          <div class="section-head">
-            <h2 id="read-path-heading">[כותרת סקשן H2]</h2>
-            <p>[תיאור קצר]</p>
-          </div>
-          <div class="reading-path">
-            <a class="path-step" href="articles/article-001.html"
-              ><span class="path-num">01</span>
-              <div>
-                <h3>[כותרת משנה H3]</h3>
-                <p>[פסקה קצרה]</p>
-              </div></a
-            >
-            <a class="path-step" href="blog.html"
-              ><span class="path-num">02</span>
-              <div>
-                <h3>[כותרת משנה H3]</h3>
-                <p>[פסקה קצרה]</p>
-              </div></a
-            >
-            <a class="path-step" href="mission-vision.html"
-              ><span class="path-num">03</span>
-              <div>
-                <h3>[כותרת משנה H3]</h3>
-                <p>[פסקה קצרה]</p>
-              </div></a
-            >
           </div>
         </div>
       </section>
@@ -165,248 +80,43 @@
         <div class="container">
           <div class="section-head">
             <h2>[כותרת סקשן H2]</h2>
-            <p>[תיאור קצר]</p>
+            <p>[פסקה קצרה]</p>
           </div>
           <div class="topic-strip">
-            <a
-              class="topic-chip"
-              href="blog.html#category-%D7%91%D7%99%D7%98%D7%97%D7%95%D7%9F"
-              ><span class="topic-chip-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" focusable="false">
-                  <path d="M12 3l7 3v6c0 4.4-2.9 7.8-7 9-4.1-1.2-7-4.6-7-9V6l7-3z" />
-                  <path d="M9.5 12.5l2 2 3-3.5" />
-                </svg>
-              </span>
-              <span>[נושא]</span></a
-            >
-            <a
-              class="topic-chip"
-              href="blog.html#category-%D7%9B%D7%9C%D7%9B%D7%9C%D7%94"
-              ><span class="topic-chip-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" focusable="false">
-                  <path d="M4 17.5h16" />
-                  <path d="M6.5 15l3.5-4 3 2.5 4.5-5" />
-                  <path d="M15.5 8.5H19V12" />
-                </svg>
-              </span>
-              <span>[נושא]</span></a
-            >
-            <a
-              class="topic-chip"
-              href="blog.html#category-%D7%97%D7%99%D7%A0%D7%95%D7%9A"
-              ><span class="topic-chip-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" focusable="false">
-                  <path d="M3 7l9-4 9 4-9 4-9-4z" />
-                  <path d="M6 10v5.5c0 .8 2.7 2.5 6 2.5s6-1.7 6-2.5V10" />
-                </svg>
-              </span>
-              <span>[נושא]</span></a
-            >
-            <a
-              class="topic-chip"
-              href="blog.html#category-%D7%A9%D7%99%D7%A8%D7%95%D7%AA%20%D7%A6%D7%99%D7%91%D7%95%D7%A8%D7%99"
-              ><span class="topic-chip-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" focusable="false">
-                  <path d="M4 20h16" />
-                  <path d="M5.5 20V10.5L12 6l6.5 4.5V20" />
-                  <path d="M9 14h6" />
-                </svg>
-              </span>
-              <span>[נושא]</span></a
-            >
-            <a
-              class="topic-chip"
-              href="blog.html#category-%D7%97%D7%96%D7%95%D7%9F%20%D7%95%D7%9E%D7%93%D7%99%D7%A0%D7%99%D7%95%D7%AA"
-              ><span class="topic-chip-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" focusable="false">
-                  <path d="M8 11a2.5 2.5 0 100-5 2.5 2.5 0 000 5z" />
-                  <path d="M16 11a2.5 2.5 0 100-5 2.5 2.5 0 000 5z" />
-                  <path d="M4.5 19c.7-2.2 2.4-3.5 4.8-3.5S13.4 16.8 14 19" />
-                  <path d="M10 19c.6-1.9 2.2-3 4.2-3 2.1 0 3.7 1.1 4.3 3" />
-                </svg>
-              </span>
-              <span>[נושא]</span></a
-            >
-            <a
-              class="topic-chip"
-              href="blog.html#category-%D7%97%D7%96%D7%95%D7%9F%20%D7%95%D7%9E%D7%93%D7%99%D7%A0%D7%99%D7%95%D7%AA"
-              ><span class="topic-chip-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" focusable="false">
-                  <path d="M8 3.5h8" />
-                  <path d="M8 3.5v2h8v-2" />
-                  <path d="M7 5.5h10a1 1 0 011 1V20a1 1 0 01-1 1H7a1 1 0 01-1-1V6.5a1 1 0 011-1z" />
-                  <path d="M9 11h6" />
-                  <path d="M9 15h6" />
-                </svg>
-              </span>
-              <span>[נושא]</span></a
-            >
+            <span class="topic-chip">[נושא]</span>
+            <span class="topic-chip">[נושא]</span>
+            <span class="topic-chip">[נושא]</span>
+            <span class="topic-chip">[נושא]</span>
           </div>
         </div>
       </section>
 
       <section class="section">
-        <div class="container">
-          <div class="section-head"><h2>[כותרת סקשן H2]</h2></div>
-          <div class="editorial-grid editorial-grid-home">
-            <article class="article-spotlight">
-              <figure class="media-frame media-lg temp-media">
-                <img
-                  src="assets/images/placeholder-editorial.svg"
-                  alt="[תמונה / ויזואל]"
-                  loading="lazy"
-                  width="1200"
-                  height="800"
-                />
-              </figure>
-              <p class="meta">[טקסט תיאור]</p>
-              <h3>[כותרת משנה H3]</h3>
-              <p>[פסקה קצרה]</p>
-              <a class="btn btn-secondary" href="articles/article-002.html"
-                >[כפתור קריאה]</a
-              >
-            </article>
-            <div class="mini-articles">
-              <article class="article-slim">
-                <figure class="media-frame media-md temp-media">
-                  <img
-                    src="assets/images/placeholder-editorial.svg"
-                    alt="[תמונה / ויזואל]"
-                    loading="lazy"
-                    width="1200"
-                    height="800"
-                  />
-                </figure>
-                <p class="meta">[טקסט תיאור]</p>
-                <h3>[כותרת משנה H3]</h3>
-                <p>[פסקה קצרה]</p>
-                <a class="text-link" href="articles/article-003.html"
-                  >[כפתור קריאה]</a
-                >
-              </article>
-              <article class="article-slim">
-                <figure class="media-frame media-md temp-media">
-                  <img
-                    src="assets/images/placeholder-editorial.svg"
-                    alt="[תמונה / ויזואל]"
-                    loading="lazy"
-                    width="1200"
-                    height="800"
-                  />
-                </figure>
-                <p class="meta">[טקסט תיאור]</p>
-                <h3>[כותרת משנה H3]</h3>
-                <p>[תקציר מאמר]</p>
-                <a
-                  class="text-link"
-                  href="blog.html#category-%D7%9B%D7%9C%D7%9B%D7%9C%D7%94"
-                  >[כפתור קריאה]</a
-                >
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section section-soft">
         <div class="container manifesto-split">
-          <p class="manifesto-quote">
-            "[טקסט תיאור] חזקה לא נבנת מהבטחות.
-            <br />היא נבנת מ[טקסט תיאור] [טקסט תיאור], [טקסט תיאור] עקבי, ו[טקסט תיאור] [טקסט תיאור]ית [טקסט תיאור]
-            בשטח ."
-          </p>
+          <p class="manifesto-quote">[ציטוט]</p>
           <div>
             <h2>[כותרת סקשן H2]</h2>
             <p>[פסקה קצרה]</p>
-            <a class="btn btn-primary" href="mission-vision.html"
-              >[כפתור מעבר לעמוד ה[קטגוריה]]</a
-            >
+            <a class="btn btn-primary" href="mission-vision.html">[כפתור משני]</a>
           </div>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="container">
-          <div class="section-head">
-            <h2>[כותרת סקשן H2]</h2>
-            <p>[פסקה קצרה]</p>
-          </div>
-          <ol class="guided-list">
-            <li>
-              <a href="articles/article-001.html">
-                <span class="guided-icon" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" focusable="false">
-                    <path d="M10 4.5c0 1.8 1.4 2.4 1.4 4.1 0 .9-.5 1.6-1.1 2.2-.8.7-1.3 1.7-1.3 2.8 0 1.9 1.5 3.4 3.4 3.4s3.4-1.5 3.4-3.4c0-1.4-.8-2.5-2-3.2" />
-                    <path d="M12.4 17v3.5" />
-                    <path d="M9.6 20.5h5.6" />
-                    <path d="M10.4 9.9c.8-.3 1.7-.9 2.1-2" />
-                  </svg>
-                </span>
-                <span class="guided-content">
-                  <strong>[כותרת מאמר]</strong>
-                  <span class="guided-text"
-                    >[טקסט תיאור]</span
-                  >
-                </span>
-                <span class="guided-cta">[כפתור קריאה]</span>
-              </a>
-            </li>
-            <li>
-              <a href="articles/article-003.html">
-                <span class="guided-icon" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" focusable="false">
-                    <path d="M12 3l7 3v5.8c0 4.6-3 8.3-7 9.4-4-1.1-7-4.8-7-9.4V6l7-3z" />
-                    <path d="M9.4 12.4l1.8 1.8 3.4-3.6" />
-                  </svg>
-                </span>
-                <span class="guided-content">
-                  <strong>ה[טקסט תיאור] ל[קטגוריה] אישי</strong>
-                  <span class="guided-text"
-                    >צעדים מדידים לשיפור ה[קטגוריה] בקהילה</span
-                  >
-                </span>
-                <span class="guided-cta">[כפתור קריאה]</span>
-              </a>
-            </li>
-            <li>
-              <a href="articles/article-002.html">
-                <span class="guided-icon" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" focusable="false">
-                    <path d="M4 20h16" />
-                    <path d="M5.5 20V10.5L12 6l6.5 4.5V20" />
-                    <path d="M9 14h6" />
-                    <path d="M11 17l1.2 1.2 2-2" />
-                  </svg>
-                </span>
-                <span class="guided-content">
-                  <strong>[כותרת מאמר]</strong>
-                  <span class="guided-text"
-                    >[טקסט תיאור] פעולה [טקסט תיאור] [טקסט תיאור] [טקסט תיאור] [טקסט תיאור]</span
-                  >
-                </span>
-                <span class="guided-cta">[כפתור קריאה]</span>
-              </a>
-            </li>
-          </ol>
         </div>
       </section>
 
       <section class="section section-soft">
         <div class="container cta-band newsletter-band">
           <h2>[כותרת סקשן H2]</h2>
+          <p>[פסקה קצרה]</p>
           <form>
             <div class="form-grid">
               <div>
-                <label for="home-name">שם מלא</label
-                ><input id="home-name" required />
+                <label for="home-name">שם מלא</label><input id="home-name" required />
               </div>
               <div>
-                <label for="home-email">אימייל</label
-                ><input id="home-email" type="email" required />
+                <label for="home-email">אימייל</label><input id="home-email" type="email" required />
               </div>
             </div>
-            <button class="btn btn-primary" type="submit">[כפתור ראשי]</button>
-            <p class="microcopy">[פסקה קצרה]</p>
+            <button class="btn btn-primary" type="submit">[כפתור הרשמה]</button>
+            <p class="microcopy">[טקסט פרטיות]</p>
           </form>
         </div>
       </section>
@@ -435,23 +145,13 @@
               <a href="contact.html">צרו קשר</a>
             </div>
           </div>
-          <div class="footer-column">
-            <h3 class="footer-title">[כותרת משנה H3]</h3>
-            <div class="footer-links">
-              <a href="blog.html#categories">[קטגוריה]</a>
-              <a href="blog.html#categories">[קטגוריה]</a>
-              <a href="blog.html#categories">[קטגוריה]</a>
-              <a href="blog.html#categories">[טקסט תיאור]</a>
-              <a href="blog.html#categories">[קטגוריה]</a>
-            </div>
-          </div>
           <div class="footer-column footer-newsletter">
             <h3 class="footer-title">[כותרת משנה H3]</h3>
-            <p>[פסקה מורחבת]</p>
+            <p>[פסקה קצרה]</p>
             <form class="footer-newsletter-form" action="#">
               <label class="sr-only" for="footer-email-index">אימייל</label>
-              <input id="footer-email-index" type="email" placeholder="[הקלידו כאן]" required />
-              <button class="btn btn-primary" type="submit">[כפתור ראשי]</button>
+              <input id="footer-email-index" type="email" placeholder="[טקסט תיאור]" required />
+              <button class="btn btn-primary" type="submit">[כפתור הרשמה]</button>
             </form>
             <p class="microcopy">[טקסט פרטיות]</p>
           </div>
@@ -459,7 +159,7 @@
         <div class="footer-bottom">
           <p class="legal">[טקסט גילוי נאות]</p>
           <div class="footer-legal-links">
-            <a href="privacy-policy.html">[טקסט תיאור] פרטיות</a>
+            <a href="privacy-policy.html">מדיניות פרטיות</a>
             <a href="terms.html">תנאי שימוש</a>
             <a href="accessibility.html">הצהרת נגישות</a>
           </div>

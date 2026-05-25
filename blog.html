@@ -4,33 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>[כותרת עמוד] | [שם המועמד]</title>
-    <meta
-      name="description"
-      content="[תיאור מטא]"
-    />
+    <meta name="description" content="[תיאור מטא]" />
     <link rel="canonical" href="https://candidate.co.il/blog/" />
     <meta property="og:title" content="[כותרת OG]" />
-    <meta
-      property="og:description"
-      content="[תיאור OG]"
-    />
+    <meta property="og:description" content="[תיאור OG]" />
     <meta property="og:image" content="https://candidate.co.il/assets/images/og-blog.jpg" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://candidate.co.il/blog/" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="[כותרת OG]" />
+    <meta name="twitter:description" content="[תיאור OG]" />
     <link rel="stylesheet" href="css/styles.css" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@graph": [
           {
-            "@type": "Blog",
-            "name":"[כותרת עמוד]",
-            "url": "https://candidate.co.il/blog/"
-          },
-          {
             "@type": "CollectionPage",
-            "name":"[שם המועמד]",
+            "name": "[כותרת עמוד]",
+            "description": "[תיאור מטא]",
             "url": "https://candidate.co.il/blog/"
           },
           {
@@ -39,13 +31,13 @@
               {
                 "@type": "ListItem",
                 "position": 1,
-                "name":"[שם המועמד]",
+                "name": "דף הבית",
                 "item": "https://candidate.co.il/"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
-                "name":"[שם המועמד]",
+                "name": "בלוג",
                 "item": "https://candidate.co.il/blog/"
               }
             ]
@@ -55,34 +47,18 @@
             "mainEntity": [
               {
                 "@type": "Question",
-                "name":"[שם המועמד]",
+                "name": "[שאלת FAQ]",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text":"[תשובת FAQ]"
+                  "text": "[תשובת FAQ]"
                 }
               },
               {
                 "@type": "Question",
-                "name":"[שם המועמד]",
+                "name": "[שאלת FAQ]",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text":"[תשובת FAQ]"
-                }
-              },
-              {
-                "@type": "Question",
-                "name":"[שם המועמד]",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text":"[תשובת FAQ]"
-                }
-              },
-              {
-                "@type": "Question",
-                "name":"[שם המועמד]",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text":"[תשובת FAQ]"
+                  "text": "[תשובת FAQ]"
                 }
               }
             ]
@@ -108,7 +84,7 @@
           <a class="active" href="blog.html">בלוג</a>
           <a href="contact.html">צרו קשר</a>
         </nav>
-        <a class="btn btn-primary desktop-only" href="#featured">[כפתור ראשי]</a>
+        <a class="btn btn-primary desktop-only" href="#future-content">[כפתור ראשי]</a>
       </div>
     </header>
 
@@ -120,111 +96,19 @@
             <h1>[כותרת ראשית H1]</h1>
             <p>[פסקה קצרה]</p>
             <div class="hero-actions">
-              <a class="btn btn-primary" href="#featured">[כפתור ראשי]</a>
-              <a class="btn btn-secondary" href="mission-vision.html">[כפתור משני]</a>
+              <a class="btn btn-primary" href="#future-content">[כפתור ראשי]</a>
+              <a class="btn btn-secondary" href="contact.html">[כפתור משני]</a>
             </div>
           </div>
-          <aside class="blog-hero-insight" aria-label="[טקסט תיאור]">
-            <p class="meta">[טקסט תיאור]</p>
-            <ol>
-              <li><a href="#featured">[טקסט תיאור]</a></li>
-              <li><a href="#blog-grid">[טקסט תיאור]</a></li>
-              <li><a href="#faq">[כותרת סקשן H2] [טקסט תיאור]</a></li>
-            </ol>
-          </aside>
         </div>
       </section>
 
-      <section id="featured" class="section blog-featured">
+      <section id="future-content" class="section section-soft">
         <div class="container">
-          <article class="featured-article">
-            <div class="featured-article-copy">
-              <p class="meta">[טקסט תיאור]</p>
-              <h2>[כותרת סקשן H2]</h2>
-              <p>[פסקה קצרה]</p>
-              <a class="btn btn-primary" href="articles/article-001.html">[כפתור קריאה]</a>
-            </div>
-            <figure class="media-frame media-lg temp-media">
-              <img src="assets/images/placeholder-editorial.svg" alt="[תמונה / ויזואל]" loading="lazy" width="1200" height="800" />
-            </figure>
-          </article>
-        </div>
-      </section>
-
-      <section class="section section-soft blog-filters">
-        <div class="container">
-          <div class="filters" aria-label="סינון קטגוריות">
-            <button class="filter-btn active" data-category="הכל" aria-pressed="true">הכל</button>
-            <button class="filter-btn" data-category="[קטגוריה]" aria-pressed="false">[קטגוריה]</button>
-            <button class="filter-btn" data-category="[קטגוריה]" aria-pressed="false">[קטגוריה]</button>
-            <button class="filter-btn" data-category="[טקסט תיאור]" aria-pressed="false">[טקסט תיאור]</button>
-            <button class="filter-btn" data-category="[טקסט תיאור]" aria-pressed="false">[טקסט תיאור]</button>
-            <button class="filter-btn" data-category="[קטגוריה]" aria-pressed="false">[קטגוריה]</button>
-            <button class="filter-btn" data-category="category-1" aria-pressed="false">[קטגוריה]</button>
-            <button class="filter-btn" data-category="[קטגוריה]" aria-pressed="false">[קטגוריה]</button>
+          <div class="section-head">
+            <h2>[כותרת סקשן H2]</h2>
+            <p>[פסקה קצרה]</p>
           </div>
-          <p class="meta" data-article-count></p>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="container article-grid" id="blog-grid">
-          <article class="article-card article-card-lg blog-card" data-category="[קטגוריה]">
-            <figure class="media-frame media-lg temp-media">
-              <img src="assets/images/placeholder-editorial.svg" alt="[תמונה / ויזואל]" loading="lazy" width="1200" height="800" />
-            </figure>
-            <p class="meta">[טקסט תיאור]</p>
-            <h3>[כותרת משנה H3]</h3>
-            <p>[תקציר מאמר]</p>
-            <a class="btn btn-secondary btn-compact" href="articles/article-001.html">[כפתור קריאה]</a>
-          </article>
-
-          <article class="article-card article-card-md blog-card" data-category="[קטגוריה]">
-            <p class="meta">[טקסט תיאור]</p>
-            <h3>[כותרת משנה H3]</h3>
-            <p>[פסקה קצרה]</p>
-            <a class="btn btn-secondary btn-compact" href="articles/article-002.html">[כפתור קריאה]</a>
-          </article>
-
-          <article class="article-card article-card-md blog-card" data-category="[קטגוריה]">
-            <p class="meta">[טקסט תיאור]</p>
-            <h3>[כותרת משנה H3]</h3>
-            <p>[תקציר מאמר]</p>
-            <a class="btn btn-secondary btn-compact" href="articles/article-003.html">[כפתור קריאה]</a>
-          </article>
-
-          <article class="article-card blog-card" data-category="[טקסט תיאור]">
-            <p class="meta">[טקסט תיאור]</p>
-            <h3>[כותרת משנה H3]</h3>
-            <p>[פסקה קצרה]</p>
-            <a class="btn btn-secondary btn-compact" href="articles/article-001.html">[כפתור קריאה]</a>
-          </article>
-
-          <article class="article-card blog-card" data-category="[טקסט תיאור]">
-            <p class="meta">[טקסט תיאור]</p>
-            <h3>[כותרת משנה H3]</h3>
-            <p>[פסקה קצרה]</p>
-            <a class="btn btn-secondary btn-compact" href="articles/article-002.html">[כפתור קריאה]</a>
-          </article>
-
-          <article class="article-card blog-card" data-category="category-1">
-            <p class="meta">[טקסט תיאור]</p>
-            <h3>[כותרת משנה H3]</h3>
-            <p>[תקציר מאמר]</p>
-            <a class="btn btn-secondary btn-compact" href="articles/article-003.html">[כפתור קריאה]</a>
-          </article>
-        </div>
-      </section>
-
-      <section class="section section-soft">
-        <div class="container">
-          <div class="section-head"><h2>[כותרת סקשן H2]</h2></div>
-           <ol class="ranked-list ranked-list-compact">
-             <li><a href="articles/article-002.html"><strong>01</strong><span>[כותרת מאמר]</span><span class="ranked-cta" aria-hidden="true">←</span></a></li>
-             <li><a href="articles/article-001.html"><strong>02</strong><span>[כותרת מאמר]</span><span class="ranked-cta" aria-hidden="true">←</span></a></li>
-             <li><a href="articles/article-003.html"><strong>03</strong><span>[כותרת מאמר]</span><span class="ranked-cta" aria-hidden="true">←</span></a></li>
-             <li><a href="mission-vision.html"><strong>04</strong><span>[טקסט תיאור] [טקסט תיאור] [טקסט תיאור] את [טקסט תיאור] [טקסט תיאור]</span><span class="ranked-cta" aria-hidden="true">←</span></a></li>
-           </ol>
         </div>
       </section>
 
@@ -234,12 +118,9 @@
             <h2>[כותרת סקשן H2]</h2>
           </div>
           <div class="topic-strip">
-            <a class="topic-chip" href="blog.html#category-%D7%91%D7%99%D7%98%D7%97%D7%95%D7%9F"><span>[קטגוריה] לאומי</span></a>
-            <a class="topic-chip" href="blog.html#category-%D7%9B%D7%9C%D7%9B%D7%9C%D7%94"><span>[טקסט תיאור] וצמיחה</span></a>
-            <a class="topic-chip" href="blog.html#category-%D7%97%D7%99%D7%A0%D7%95%D7%9A"><span>[טקסט תיאור] ודור העתיד</span></a>
-            <a class="topic-chip" href="blog.html#category-%D7%A9%D7%99%D7%A8%D7%95%D7%AA%20%D7%A6%D7%99%D7%91%D7%95%D7%A8%D7%99"><span>[קטגוריה] נקי</span></a>
-            <a class="topic-chip" href="blog.html#category-%D7%97%D7%96%D7%95%D7%9F%20%D7%95%D7%9E%D7%93%D7%99%D7%A0%D7%99%D7%95%D7%AA"><span>[טקסט תיאור] חברתית</span></a>
-            <a class="topic-chip" href="blog.html#category-%D7%97%D7%96%D7%95%D7%9F%20%D7%95%D7%9E%D7%93%D7%99%D7%A0%D7%99%D7%95%D7%AA"><span>[טקסט תיאור] וחקיקה</span></a>
+            <span class="topic-chip">[נושא]</span>
+            <span class="topic-chip">[נושא]</span>
+            <span class="topic-chip">[נושא]</span>
           </div>
         </div>
       </section>
@@ -249,27 +130,25 @@
           <div class="section-head"><h2>[כותרת סקשן H2]</h2></div>
           <div class="faq-accordion" data-accordion="single">
             <div class="faq-item is-open">
-              <h3>[כותרת משנה H3]</h3>
+              <h3>
+                <button class="faq-trigger" id="faq-trigger-1" aria-expanded="true" aria-controls="faq-panel-1">
+                  <span>[שאלת FAQ]</span>
+                  <span class="faq-icon" aria-hidden="true"></span>
+                </button>
+              </h3>
               <div class="faq-answer" id="faq-panel-1" role="region" aria-labelledby="faq-trigger-1">
-                <p>[פסקה קצרה]</p>
+                <p>[תשובת FAQ]</p>
               </div>
             </div>
             <div class="faq-item">
-              <h3>[כותרת משנה H3]</h3>
+              <h3>
+                <button class="faq-trigger" id="faq-trigger-2" aria-expanded="false" aria-controls="faq-panel-2">
+                  <span>[שאלת FAQ]</span>
+                  <span class="faq-icon" aria-hidden="true"></span>
+                </button>
+              </h3>
               <div class="faq-answer" id="faq-panel-2" role="region" aria-labelledby="faq-trigger-2">
-                <p>[פסקה קצרה]</p>
-              </div>
-            </div>
-            <div class="faq-item">
-              <h3>[כותרת משנה H3]</h3>
-              <div class="faq-answer" id="faq-panel-3" role="region" aria-labelledby="faq-trigger-3">
-                <p>[פסקה קצרה]</p>
-              </div>
-            </div>
-            <div class="faq-item">
-              <h3>[כותרת משנה H3]</h3>
-              <div class="faq-answer" id="faq-panel-4" role="region" aria-labelledby="faq-trigger-4">
-                <p>[פסקה קצרה]</p>
+                <p>[תשובת FAQ]</p>
               </div>
             </div>
           </div>
@@ -279,6 +158,7 @@
       <section class="section">
         <div class="container cta-band newsletter-band blog-newsletter">
           <h2>[כותרת סקשן H2]</h2>
+          <p>[פסקה קצרה]</p>
           <form>
             <div class="form-grid">
               <div>
@@ -290,7 +170,7 @@
                 <input id="blog-email" type="email" required />
               </div>
             </div>
-            <button class="btn btn-primary" type="submit">[כפתור ראשי]</button>
+            <button class="btn btn-primary" type="submit">[כפתור הרשמה]</button>
             <p class="microcopy">[טקסט פרטיות]</p>
           </form>
         </div>
@@ -320,39 +200,28 @@
               <a href="contact.html">צרו קשר</a>
             </div>
           </div>
-          <div class="footer-column">
-            <h3 class="footer-title">[כותרת משנה H3]</h3>
-            <div class="footer-links">
-              <a href="blog.html#categories">[קטגוריה]</a>
-              <a href="blog.html#categories">[קטגוריה]</a>
-              <a href="blog.html#categories">[טקסט תיאור]</a>
-              <a href="blog.html#categories">[טקסט תיאור]</a>
-              <a href="blog.html#categories">[קטגוריה]</a>
-            </div>
-          </div>
           <div class="footer-column footer-newsletter">
             <h3 class="footer-title">[כותרת משנה H3]</h3>
-            <p>[פסקה מורחבת]</p>
+            <p>[פסקה קצרה]</p>
             <form class="footer-newsletter-form" action="#">
               <label class="sr-only" for="footer-email-blog">אימייל</label>
-              <input id="footer-email-blog" type="email" placeholder="[תוכן מאמר]" required />
-              <button class="btn btn-primary" type="submit">[כפתור ראשי]</button>
+              <input id="footer-email-blog" type="email" placeholder="[טקסט תיאור]" required />
+              <button class="btn btn-primary" type="submit">[כפתור הרשמה]</button>
             </form>
-            <p class="microcopy">[פסקה קצרה]</p>
+            <p class="microcopy">[טקסט פרטיות]</p>
           </div>
         </div>
         <div class="footer-bottom">
-          <p class="legal">[פסקה קצרה]</p>
+          <p class="legal">[טקסט גילוי נאות]</p>
           <div class="footer-legal-links">
-            <a href="privacy-policy.html">[טקסט תיאור] פרטיות</a>
+            <a href="privacy-policy.html">מדיניות פרטיות</a>
             <a href="terms.html">תנאי שימוש</a>
             <a href="accessibility.html">הצהרת נגישות</a>
           </div>
         </div>
       </div>
     </footer>
+
     <script src="js/main.js"></script>
-    <script src="js/articles-data.js"></script>
-    <script src="js/blog.js"></script>
   </body>
 </html>
