@@ -12,7 +12,7 @@ const articlesData = [
     popular: true,
     recommended: true,
     image: 'assets/images/placeholder-editorial.svg',
-    alt: 'ויזואל זמני למאמר [קטגוריה]'
+    alt: '[תמונה / ויזואל]'
   },
   {
     id: '002',
@@ -27,7 +27,7 @@ const articlesData = [
     popular: true,
     recommended: true,
     image: 'assets/images/placeholder-editorial.svg',
-    alt: 'ויזואל זמני למאמר [קטגוריה]'
+    alt: '[תמונה / ויזואל]'
   },
   {
     id: '003',
@@ -42,6 +42,6 @@ const articlesData = [
     popular: true,
     recommended: true,
     image: 'assets/images/placeholder-editorial.svg',
-    alt: 'ויזואל זמני למאמר [קטגוריה]'
+    alt: '[תמונה / ויזואל]'
   }
 ];
